@@ -43,8 +43,7 @@ Cell互斥事件
     /*在此处设置*/
     button.selected =  selected;
     }
-    
-    # 第二种方法：点击Button互斥
+ # 第二种方法：点击Button互斥
     
     #import <UIKit/UIKit.h>
     typedef void (^CustomButtonSingleOneCellBlock)();
