@@ -15,6 +15,11 @@
 		06ED4D881EFA46EC00FF9200 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 06ED4D861EFA46EC00FF9200 /* LaunchScreen.storyboard */; };
 		06ED4D931EFA46EC00FF9200 /* iOS_Cell_MutualTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 06ED4D921EFA46EC00FF9200 /* iOS_Cell_MutualTests.m */; };
 		06ED4D9E1EFA46EC00FF9200 /* iOS_Cell_MutualUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 06ED4D9D1EFA46EC00FF9200 /* iOS_Cell_MutualUITests.m */; };
+		06ED4DB51EFA470F00FF9200 /* CustomBtnSingleTwoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 06ED4DAD1EFA470F00FF9200 /* CustomBtnSingleTwoCell.m */; };
+		06ED4DB61EFA470F00FF9200 /* CustomButtonSingleOneCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 06ED4DAF1EFA470F00FF9200 /* CustomButtonSingleOneCell.m */; };
+		06ED4DB71EFA470F00FF9200 /* CustomSingleCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 06ED4DB11EFA470F00FF9200 /* CustomSingleCell.m */; };
+		06ED4DB81EFA470F00FF9200 /* LPSingleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 06ED4DB31EFA470F00FF9200 /* LPSingleViewController.m */; };
+		06ED4DB91EFA470F00FF9200 /* Simulator Screen Shot 2017年6月21日 下午1.44.46.png in Resources */ = {isa = PBXBuildFile; fileRef = 06ED4DB41EFA470F00FF9200 /* Simulator Screen Shot 2017年6月21日 下午1.44.46.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +56,15 @@
 		06ED4D991EFA46EC00FF9200 /* iOS_Cell_MutualUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOS_Cell_MutualUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		06ED4D9D1EFA46EC00FF9200 /* iOS_Cell_MutualUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOS_Cell_MutualUITests.m; sourceTree = "<group>"; };
 		06ED4D9F1EFA46EC00FF9200 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		06ED4DAC1EFA470F00FF9200 /* CustomBtnSingleTwoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomBtnSingleTwoCell.h; sourceTree = "<group>"; };
+		06ED4DAD1EFA470F00FF9200 /* CustomBtnSingleTwoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomBtnSingleTwoCell.m; sourceTree = "<group>"; };
+		06ED4DAE1EFA470F00FF9200 /* CustomButtonSingleOneCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomButtonSingleOneCell.h; sourceTree = "<group>"; };
+		06ED4DAF1EFA470F00FF9200 /* CustomButtonSingleOneCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomButtonSingleOneCell.m; sourceTree = "<group>"; };
+		06ED4DB01EFA470F00FF9200 /* CustomSingleCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomSingleCell.h; sourceTree = "<group>"; };
+		06ED4DB11EFA470F00FF9200 /* CustomSingleCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomSingleCell.m; sourceTree = "<group>"; };
+		06ED4DB21EFA470F00FF9200 /* LPSingleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LPSingleViewController.h; sourceTree = "<group>"; };
+		06ED4DB31EFA470F00FF9200 /* LPSingleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LPSingleViewController.m; sourceTree = "<group>"; };
+		06ED4DB41EFA470F00FF9200 /* Simulator Screen Shot 2017年6月21日 下午1.44.46.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Simulator Screen Shot 2017年6月21日 下午1.44.46.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +115,7 @@
 		06ED4D771EFA46EC00FF9200 /* iOS_Cell_Mutual */ = {
 			isa = PBXGroup;
 			children = (
+				06ED4DAB1EFA470F00FF9200 /* Cell单选 */,
 				06ED4D7B1EFA46EC00FF9200 /* AppDelegate.h */,
 				06ED4D7C1EFA46EC00FF9200 /* AppDelegate.m */,
 				06ED4D7E1EFA46EC00FF9200 /* ViewController.h */,
@@ -138,6 +153,22 @@
 				06ED4D9F1EFA46EC00FF9200 /* Info.plist */,
 			);
 			path = iOS_Cell_MutualUITests;
+			sourceTree = "<group>";
+		};
+		06ED4DAB1EFA470F00FF9200 /* Cell单选 */ = {
+			isa = PBXGroup;
+			children = (
+				06ED4DAC1EFA470F00FF9200 /* CustomBtnSingleTwoCell.h */,
+				06ED4DAD1EFA470F00FF9200 /* CustomBtnSingleTwoCell.m */,
+				06ED4DAE1EFA470F00FF9200 /* CustomButtonSingleOneCell.h */,
+				06ED4DAF1EFA470F00FF9200 /* CustomButtonSingleOneCell.m */,
+				06ED4DB01EFA470F00FF9200 /* CustomSingleCell.h */,
+				06ED4DB11EFA470F00FF9200 /* CustomSingleCell.m */,
+				06ED4DB21EFA470F00FF9200 /* LPSingleViewController.h */,
+				06ED4DB31EFA470F00FF9200 /* LPSingleViewController.m */,
+				06ED4DB41EFA470F00FF9200 /* Simulator Screen Shot 2017年6月21日 下午1.44.46.png */,
+			);
+			path = "Cell单选";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -247,6 +278,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				06ED4D881EFA46EC00FF9200 /* LaunchScreen.storyboard in Resources */,
+				06ED4DB91EFA470F00FF9200 /* Simulator Screen Shot 2017年6月21日 下午1.44.46.png in Resources */,
 				06ED4D851EFA46EC00FF9200 /* Assets.xcassets in Resources */,
 				06ED4D831EFA46EC00FF9200 /* Main.storyboard in Resources */,
 			);
@@ -273,8 +305,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				06ED4DB71EFA470F00FF9200 /* CustomSingleCell.m in Sources */,
 				06ED4D801EFA46EC00FF9200 /* ViewController.m in Sources */,
 				06ED4D7D1EFA46EC00FF9200 /* AppDelegate.m in Sources */,
+				06ED4DB61EFA470F00FF9200 /* CustomButtonSingleOneCell.m in Sources */,
+				06ED4DB51EFA470F00FF9200 /* CustomBtnSingleTwoCell.m in Sources */,
+				06ED4DB81EFA470F00FF9200 /* LPSingleViewController.m in Sources */,
 				06ED4D7A1EFA46EC00FF9200 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
